@@ -309,6 +309,7 @@ section {
     border-radius: 5px;
     cursor: pointer;
     transition: all .40s;
+    min-height: 53vh;
 }
 
 .row i {
@@ -334,7 +335,6 @@ section {
     transform: translateY(-17px);
     box-shadow: 15px 15px 30px 0px rgb(0, 0, 0);
 }
-
 
 
 
