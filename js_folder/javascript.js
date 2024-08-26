@@ -10,6 +10,17 @@ window.onscroll=()=>{
     navbar.classList.remove('active');
 };
 
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const message = document.getElementById('message').value.trim();
+
+    if (name === '' || email === '' || message === '') {
+        event.preventDefault();
+        alert('Please fill out all fields.');
+    }
+});
+
 
 
 const sr=ScrollReveal({
