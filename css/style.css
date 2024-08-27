@@ -146,6 +146,17 @@ section {
     margin-bottom: 1.5rem;
     color: var(--sec-main-color);
 }
+#typed-output {
+    display: inline; /* Ensure the element is inline */
+    white-space: nowrap; /* Prevent line breaks within the text */
+}
+
+.typed-cursor {
+    display: inline; /* Ensure the cursor is inline with the text */
+    font-size: inherit; /* Match the font size of the text */
+    vertical-align: baseline; /* Align cursor properly with text */
+    font-size: 1.8em; /* Increase the size of the cursor */
+}
 
 
 /* button to download CV */
@@ -283,7 +294,7 @@ section {
 
 
 
-/* Services  */
+/* Projects */
 .center {
     text-align: center;
 }
@@ -304,6 +315,11 @@ section {
 }
 
 .row {
+    /*     background: url('../img/IMG20200127132113.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+     */
     background: #0b0b13;
     padding: 60px 25px;
     border-radius: 5px;
@@ -362,7 +378,7 @@ section {
 }
 
 
-/* Resume */
+/* Education */
 .resume-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, auto));

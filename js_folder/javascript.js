@@ -1,6 +1,18 @@
 let menu=document.querySelector('#menu-icon');
 let navbar=document.querySelector('.navbar');
 
+document.addEventListener('DOMContentLoaded', function() {
+    var typed = new Typed('#typed-output', {
+      strings: ["Subhamoy Sarkar"],
+      typeSpeed: 70,        //in milisec
+      backSpeed: 50,      //in milisec
+      loop: true, // Loop the typing animation
+      showCursor: true, // Show the blinking cursor
+      cursorChar: '|', // Character for the cursor
+    });
+  });
+
+  
 menu.onclick=()=>{
     menu.classList.toggle('bx-x');
     navbar.classList.toggle('active');
