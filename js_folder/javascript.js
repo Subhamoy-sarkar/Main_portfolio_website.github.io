@@ -44,5 +44,3 @@ sr.reveal('.home-text , .home-img  , .services , .cta , .resume , .contact ',{de
 
 sr.reveal('.about-img',{delay:100,origin:'left'})
 sr.reveal('.about-text',{delay:100,origin:'right'})
-
-
